@@ -1,14 +1,14 @@
 # WikiReads
 
-![Design preview for the Shortly URL shortening API coding challenge](./design/desktop-preview.jpg)
+![Design preview for the Shortly URL shortening API coding challenge](./images/wikireads.JPG)
 
 ## Hi There! :wave:
 
-The WikiReads web application was built for the curious at heart. I've always looooved reading random facts so this was a pleasire to build.
+The WikiReads web application was built for the curious at heart. I've always looooved reading random facts so this project was a pleasire to build. The WikiReads app generates random articles at the click of a button.
 
-The WikiReads generates random articles at the click of a button. Once the article is generated, you have access to the article link which you can visit and read at your leisure.
+Once the article is generated, you have access to the article link which you can visit and read at your leisure.
 
-The project was built using the Flask micro frame work and Python libraries such as wikipedia nad wikipedia-API. All dependencies arelisted in the requirements.txt file.
+The project was built using the Flask micro framework and Python libraries such as wikipedia nad wikipedia-API. All dependencies are listed in the 'requirements.txt' file.
 
 ## Testing WikiReads on Your Browser
 
