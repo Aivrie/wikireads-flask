@@ -17,6 +17,7 @@ db = SQLAlchemy(app)
 # Define the Database
 class Article(db.Model):
     id = db.Column(db.Integer, primary_key=True)
+    
     # will store the article title
     title = db.Column(db.String(80), nullable=False)
     # will store the article url
@@ -42,7 +43,7 @@ def wiki_gen():
         # Get page url
         page_url = page_py.fullurl
         
-        # Save the page and URL in ab dictionary
+        # Save the page and URL in a dictionary
         article = {
             'article_title':title,
             'article_url':page_url
