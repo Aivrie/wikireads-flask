@@ -77,5 +77,20 @@ def index():
         return render_template('index.html', articles=articles)
 
 
+# Delete Route
+@app.route('/delete/<int:id>')
+def delete(id):
+    
+    article_to_delete = Article.query.get_or_404(id)
+    
+    try:
+        db.session.delete(article_to_delete)
+        db.session.commit()
+        return redirect('/')
+    
+    except:
+        return 'This article could not be deleted'
+        
+
 if __name__ == '__main__':
     app.run(debug=True)
